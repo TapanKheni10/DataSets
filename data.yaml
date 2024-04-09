@@ -1,0 +1,13 @@
+train: ../data/sign_language_detection/train/images
+val: ../data/sign_language_detection/valid/images
+test: ../data/sign_language_detection/test/images
+
+nc: 6
+names: ['Hello', 'I Love You', 'No', 'Please', 'Thanks', 'Yes']
+
+roboflow:
+  workspace: mysterycv
+  project: sign_language_detection-n9uur
+  version: 3
+  license: MIT
+  url: https://universe.roboflow.com/mysterycv/sign_language_detection-n9uur/dataset/3
